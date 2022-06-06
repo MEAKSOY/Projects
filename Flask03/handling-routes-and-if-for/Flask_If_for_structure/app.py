@@ -13,9 +13,9 @@ def head():
 
 # Create a function named header which prints numbers elements of list one by one in `index.html` 
 # and assign to the route of ('/')
-@app.route("/serdar")
+@app.route("/esat")
 def header():
-    names =["Serdar", "Sam", "Jasper"]
+    names =["Esat", "Sam", "Jasper"]
     # numbers = range(1.11)
     return render_template("body.html", object = names)
 
