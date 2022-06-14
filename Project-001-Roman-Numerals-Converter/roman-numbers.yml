@@ -7,6 +7,9 @@ Description: |
   Roman Numerals Converter Application is downloaded from Github repository, then installed on Flask.
     
 Parameters:
+  KeyName:
+    Description: Enter the name of your Key Pair for ssh connections 
+    Type: AWS::EC2::KeyPair::KeyName
   
 Resources:
   
