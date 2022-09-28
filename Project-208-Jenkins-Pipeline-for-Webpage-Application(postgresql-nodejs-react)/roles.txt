@@ -1,0 +1,6 @@
+ansible-galaxy init docker
+ansible-galaxy init postgre
+ansible-galaxy init nodejs
+ansible-galaxy init react
+sudo pip3 install --upgrade requests
+vault password from aws parameter store : anssible-playbook file.yml --vault-password-file ./vault_passswd.sh (script file)
