@@ -1,0 +1,5 @@
+# comment on docker installation lines in other playbooks yaml files
+- import_playbook: install_docker.yml
+- import_playbook: docker_postgre.yml
+- import_playbook: docker_nodejs.yml
+- import_playbook: docker_react.yml
